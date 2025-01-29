@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* Estilos globales */
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.square {
+  width: 16px;
+  height: 16px;
+  background-color: rgb(255, 145, 0);
+}
+.hover {
+  background-color: lightcoral;
+}
+
+.divButton {
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
